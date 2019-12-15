@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154256845-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-154256845-1');
+    </script>
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="shortcut icon" href="./assets/img/logo/seryph.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <title>Seryph</title>
+  </head>
+  <body>
+    <main id="homepage">
+
+
+
+       <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light">  
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <h1 class="display-4 text-center">Contact</h1>
+        <hr class="gold_underline">
+        <p class="text-center">Email: support@seryph.io</p>
+        <p class="text-center">Phone: 773-571-0848</p>
+
+
+        <div class=" m-3">
+          <form method="POST" data-netlify="true">
+              <div class="row">
+                <div class="col">
+                  <input type="text" name="name" class="form-control  mt-3" placeholder="Name">
+                </div>
+                <div class="col">
+                  <input type="email" name="email" class="form-control mt-3" placeholder="Email">
+                </div>
+              </div>
+
+                <div class="row">
+                  <div class="col">
+                    <input type="text" name="subject" class="form-control mt-3" placeholder="Subject">
+                  </div>
+                  <div class="col">
+                    <input type="text" name="phone" class="form-control mt-3" placeholder="Phone">
+                  </div>
+                </div>
+              
+
+
+              <textarea name="message" class="form-control my-3" placeholder="How Can We Help You?" id="exampleFormControlTextarea1" cols="8" rows="6"></textarea>
+
+              <input type="submit" class="btn btn-success d-block m-auto" />
+
+            </form>
+          </div>
+
+
+
+
+          <div>
+
+          </div>
+
+
+
+       <!-- FOOTER -->
+  <footer id="main-footer" class="text-center p-4  fixed-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p> Seryph |
+              <span id="year"></span></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+  
+
+
+    <script src="./assets/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js" ></script>
+    <script src="./assets/js/fa.min.js"></script>
+
+    <script>
+        // Get the current year for the copyright
+        $('#year').text(new Date().getFullYear());
+
+    </script>
+        
+  </body>
+</html>

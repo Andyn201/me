@@ -1,0 +1,21 @@
+/* Navbar */
+*{
+  font-family: 'Abhaya Libre', serif;
+  color: #494545;
+}
+
+.navbar{
+  font-family: 'Abhaya Libre', serif;
+  color: #494545;
+}
+
+.navbar-brand{
+  color: #494545 !important;
+  font-size: 2rem;
+}
+
+.gold_underline{
+  width: 320px;
+  background:#c4b665;
+}
+
