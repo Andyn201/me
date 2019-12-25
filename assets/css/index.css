@@ -28,7 +28,7 @@ html {
 
 #homepage {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     background-position: center;
     background-size: cover;
 
@@ -39,7 +39,7 @@ html {
     color: #494545;
     text-align: center;
     width: 100%;
-    height: 70vh;
+    height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,4 +118,9 @@ html {
     }
 
 
+}
+
+.main-frame{
+    margin-top: 15vh;
+    height: 40vw;
 }
